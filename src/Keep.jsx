@@ -25,7 +25,7 @@ const Keep = () => {
         <>
             <Header />
             <CreateNote passNote={addNote} />
-            <div className="d-flex p-2">
+            <div className="grid">
                 {
                     addItem.map((value, index) => {
                         return <Note key={index} id={index} title={value.title} content={value.content} deleteItem={onDelete} />

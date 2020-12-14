@@ -1,8 +1,8 @@
 footer {
-  clear: both;
-  position: relative;
-  height: 240px;
-  margin-top: -10px;
+  position: relative !important;
+  left: 0rem !important;
+  bottom: 0rem !important;
+  width: 100% !important;
 }
 
 * {
@@ -12,4 +12,9 @@ footer {
 .color:hover {
   background-color: orange !important;
   color: white !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
