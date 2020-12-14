@@ -1,0 +1,15 @@
+footer {
+  clear: both;
+  position: relative;
+  height: 240px;
+  margin-top: -10px;
+}
+
+* {
+  outline: none !important;
+}
+
+.color:hover {
+  background-color: orange !important;
+  color: white !important;
+}
